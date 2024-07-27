@@ -6,5 +6,6 @@ const userRouter = Router()
 userRouter.get('/', getUsers)
 userRouter.get('/:id',getUserId)
 userRouter.post('/', createUser)
+userRouter.post('/', createUser)
 
 export { userRouter }
